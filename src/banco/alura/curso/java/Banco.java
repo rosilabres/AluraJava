@@ -24,22 +24,20 @@ class Conta {
 
 class Pessoa{
 	String nome;
-	int cpf;
+	String cpf;
 	String endereco;
 }
 
 class Banco {
 
 	public static void main (String[] args){
-		Conta rosi = new Conta();
-		rosi.numero = 123;
-		rosi.saldo = 1000;
-		rosi.titular = "Rosilene Labres";
-		rosi.agencia = 938;
+		Conta c = new Conta();
 		
-		rosi.deposita(2000);
+		Pessoa rosi = new Pessoa();
 		
-		System.out.println(rosi.saldo);
+		c.titular.nome = "Rosilene Labres";
+		c.titular.cpf = "96739054019";
+		c.titular.endereco = "Rua das Flores";
 	}
 	
 }
