@@ -33,9 +33,10 @@ class Banco {
 	public static void main (String[] args){
 		Conta c = new Conta();
 		
-		Pessoa rosi = new Pessoa();
-		
-		c.titular.nome = "Rosilene Labres";
+		Pessoa p = new Pessoa();
+				
+		p.nome = "Rosilene";
+		c.titular.nome = "Teste";
 		c.titular.cpf = "96739054019";
 		c.titular.endereco = "Rua das Flores";
 	}
